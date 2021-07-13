@@ -1,0 +1,44 @@
+/* ---------------------
+    Media Queries 
+-----------------------*/
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .banner-section .banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-players .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .organizations{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlights-section .highlights{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .form-two-part{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-info input, textarea{
+        width: 100% !important;
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+}
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    
+}
