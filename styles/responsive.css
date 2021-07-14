@@ -6,32 +6,58 @@
 @media only screen and (max-width:688px) {
     .container{
         width: 100%;
+        padding:0px;
     }
-    .banner-section .banner{
-        display: grid;
+    h1{
+        font-size:40px;
+        line-height:55px;
+    }
+    h2{
+        font-size: 30px;
+        line-height:45px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    p{  
+        font-size:16px;
+        line-height:26px;
+    }
+    .link-button{
+        padding: 8px 20px;
+        font-size:14px;
+    }
+    .half-width{
+        width: 80% !important;
+        margin-left: 0% !important;
+    }
+    .banner-section .banner, .highlights-section .highlights{
+        flex-direction: column;
+        display:flex;
+        align-items:center;
+    }
+    .banner-section .banner img, .highlights-section .highlights img{
+        width: 100%;
+        padding-top:100px;
+    }
+    .top-players .players, .organizations{
         grid-template-columns: repeat(1, 1fr);
     }
-    .top-players .players{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .organizations{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .highlights-section .highlights{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    .organization-section{
+        padding: 20px;
     }
     .form-two-part{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column !important;
     }
     .contact-info input, textarea{
-        width: 100% !important;
+        width: 90% !important;
     }
-    .player, .blog{
-        flex-direction: column;
+    .contact-info{
+        padding:20px !important;
     }
 }
 
@@ -39,6 +65,56 @@
 @media only screen and (min-width: 688px) and (max-width:992px) {
     .container{
         width: 100%;
+        padding:0px;
+    }
+    h1{
+        font-size:40px;
+        line-height:55px;
+    }
+    h2{
+        font-size: 30px;
+        line-height:45px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    p{  
+        font-size:16px;
+        line-height:26px;
+    }
+    .link-button{
+        padding: 8px 20px;
+        font-size:14px;
+    }
+    .half-width{
+        width: 50% !important;
+        /* padding: 2% !important; */
+    }
+    /* .banner-section .banner, .highlights-section .highlights{
+        width:100%;
+    }
+    .banner-section .banner img, .highlights-section .highlights img{
+        width: 100%;
+        text-align: center;
+    } */
+    .top-players .players, .organizations{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .organization-section{
+        padding: 20px;
+    }
+    .form-two-part{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .contact-info input, textarea{
+        width: 90% !important;
+    }
+    .contact-info{
+        padding:20px !important;
     }
     
 }
