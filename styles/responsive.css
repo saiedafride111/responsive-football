@@ -98,6 +98,9 @@
     .banner-section .banner, .highlights-section .highlights{
        margin: 0px -15px;
     }
+    .top-players .players{
+        grid-column-gap: 0px;
+    }
     .top-players .player{
         margin: 0px 20px;
     }
